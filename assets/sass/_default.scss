@@ -1,0 +1,136 @@
+* {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F1EFEF;
+}
+
+//main {}
+
+button {
+border: none;
+outline: none;
+}
+
+button:focus {
+outline: none;
+}
+
+input {
+    outline: none;
+    //-moz-appearance: none;
+    //-webkit-appearance: none;
+}
+
+a, a:hover {
+color: inherit;
+text-decoration: none;
+cursor: default;
+}
+
+@mixin font($font-family, $font-file) {
+    @font-face {
+      font-family: $font-family;
+      src: url($font-file+'.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+}
+
+@include font('Montserrat-Bold', '~/assets/fonts/Montserrat/static/Montserrat-Bold');
+@include font('Montserrat-Medium', '~/assets/fonts/Montserrat/static/Montserrat-Medium');
+@include font('Montserrat-SemiBold', '~/assets/fonts/Montserrat/static/Montserrat-SemiBold');
+
+h1 {
+    color: #000;
+
+    /* h1 */
+    font-family: 'Montserrat-Bold';
+    font-size: 17.94188rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29.02994rem; /* 161.8% */
+}
+h2 {
+    color: #000;
+
+    /* h2 */
+    font-family: 'Montserrat-Bold';
+    font-size: 11.08875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17.94163rem; /* 161.8% */
+}
+h3 {
+    color: #000;
+
+    /* h3 */
+    font-family: 'Montserrat-Bold';
+    font-size: 6.85375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 11.08938rem; /* 161.8% */
+}
+h4 {
+    color: #000;
+
+    /* h4 */
+    font-family: 'Montserrat-Bold';
+    font-size: 4.23563rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 6.85325rem; /* 161.8% */
+}
+h5 {
+    color: #000;
+
+    /* h5 */
+    font-family: 'Montserrat-Bold';
+    font-size: 2.61813rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.23613rem; /* 161.8% */
+}
+h6 {
+    color: #000;
+
+    /* h6 */
+    font-family: 'Montserrat-Bold';
+    font-size: 1.61813rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.61813rem; /* 161.8% */
+}
+p {
+    color: #000;
+
+    /* p */
+    font-family: 'Montserrat-Medium';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.618rem; /* 161.8% */
+}
+.p_semibold {
+    color: #000;
+
+    /* p-semibold */
+    font-family: 'Montserrat-SemiBold';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.618rem; /* 161.8% */
+}
+.p_bold {
+    color: #000;
+
+    /* p-bold */
+    font-family: 'Montserrat-Bold';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.618rem; /* 161.8% */
+}

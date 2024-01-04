@@ -5,8 +5,11 @@ export default defineNuxtConfig({
   vite: {
     css: {
       preprocessorOptions: {
-        sass: {
-          additionalData: `@use '~/assets/sass/_fonts.scss' as *;`
+        scss: {
+          additionalData: `
+          @use '~/assets/sass/_colors.scss' as *;
+          @use '~/assets/sass/_fonts.scss' as *;
+          `
         }
       }
     }
