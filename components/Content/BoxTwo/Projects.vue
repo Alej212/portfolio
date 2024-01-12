@@ -11,7 +11,7 @@
             <div class="projectscard_project">
                 <p class="p_bold--blank">name project</p>
             </div>
-            <div class="projectscard_project">
+            <div class="projectscard_project projectscard_project--div ">
                 <p class="p_bold--blank">name project</p>
             </div>
             <div class="projectscard_project">
@@ -76,8 +76,7 @@
     }
     &_projects {
         display: flex;
-        align-items: flex-start;
-        align-content: flex-start;
+        justify-content: center;
         gap: 2.5rem;
         align-self: stretch;
         flex-wrap: wrap;
@@ -107,14 +106,36 @@
     .projectscard {
 
         &_div {
+            flex-direction: column;
+            padding-right: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+        .projectscard_ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3.125rem;
+            align-self: stretch;
+        }
+        .projectscard_projects {
             display: flex;
             flex-direction: column;
+            align-items: center;
+            gap: 2.5rem;
+            align-self: stretch;
+            align-content: stretch;
+        }
+        .projectscard_project {
+            display: flex;
+            padding: 0.625rem;
             justify-content: center;
             align-items: center;
             gap: 0.625rem;
             align-self: stretch;
         }
-    }
 }
 
 </style>

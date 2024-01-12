@@ -44,7 +44,6 @@
 <style scoped lang="scss">
 .frontendcard {
     display: flex;
-    padding-bottom: 1.25rem;
     flex-direction: column;
     align-items: center;
     gap: 1.875rem;

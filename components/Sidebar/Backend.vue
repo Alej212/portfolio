@@ -58,4 +58,35 @@
         height: 2.1875rem;
     }
 }
+
+// @media screen and (max-width: 1150px) {
+// .backendcard {
+//     display: flex;
+//     padding-bottom: 1.25rem;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     gap: 1.875rem;
+//     align-self: stretch;
+//     max-width: 100%;
+    
+//     &_ul {
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         align-content: center;
+//         gap: 1.875rem;
+//         align-self: stretch;
+//         flex-wrap: wrap;
+//     }
+//     &_li {
+//         width: 2.1875rem;
+//         height: 2.1875rem;
+//     }
+//     &_icon {
+//         width: 2.1875rem;
+//         height: 2.1875rem;
+//     }
+// }
+// }
 </style>
