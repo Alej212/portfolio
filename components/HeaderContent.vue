@@ -35,7 +35,8 @@ const toggleActive = () => {
     width: 100%;
     position: fixed;
     z-index: 2;
-    padding: .6rem;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
     top: 0;
   }
   .p_bold {
@@ -47,6 +48,7 @@ const toggleActive = () => {
       flex-flow: row wrap;
       align-items: center;
       gap: .6rem;
+      margin-left: .6rem;
     }
   .header_icon {
       width: 2.5rem;
